@@ -1,0 +1,11 @@
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\bin\Debug\netcoreapp3.1\Корни.exe
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\bin\Debug\netcoreapp3.1\Корни.deps.json
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\bin\Debug\netcoreapp3.1\Корни.runtimeconfig.json
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\bin\Debug\netcoreapp3.1\Корни.runtimeconfig.dev.json
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\bin\Debug\netcoreapp3.1\Корни.dll
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\bin\Debug\netcoreapp3.1\Корни.pdb
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\obj\Debug\netcoreapp3.1\Корни.csprojAssemblyReference.cache
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\obj\Debug\netcoreapp3.1\Корни.AssemblyInfoInputs.cache
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\obj\Debug\netcoreapp3.1\Корни.AssemblyInfo.cs
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\obj\Debug\netcoreapp3.1\Корни.dll
+C:\Users\HP250G3\Desktop\For Calculator\Корни\Корни\Корни\obj\Debug\netcoreapp3.1\Корни.pdb
