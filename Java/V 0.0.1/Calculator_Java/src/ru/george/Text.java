@@ -6,7 +6,7 @@ public class Text {
 
     public void helptext() {
         MainStart start_2 = new MainStart();
-        System.out.println("'+' - сложение " +
+        System.out.println("'+' - сложение " +  //А как же Console.WriteLine(""); ? :-<
                 "\n'-' - вычитание" +
                 "\n'*' - умножение" +
                 "\n'/' - деление" +
@@ -20,7 +20,7 @@ public class Text {
                 "\n'pi' - число пи" +
                 "\n'e' - выход");
         start_2.startM();
-   //Oh shit here we go again
+   //Console.WriteLine("Oh shit here we go again");
     }
 
 }
