@@ -20,7 +20,7 @@ public class Text {
                 "\n'pi' - число пи" +
                 "\n'e' - выход");
         start_2.startM();
-
+   //Oh shit here we go again
     }
 
 }
