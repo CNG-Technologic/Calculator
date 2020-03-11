@@ -1,0 +1,22 @@
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.csprojAssemblyReference.cache
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.AssemblyInfoInputs.cache
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.AssemblyInfo.cs
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.exe
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.deps.json
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.runtimeconfig.json
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.runtimeconfig.dev.json
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.dll
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.pdb
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.dll
+C:\Users\HP250G3\Desktop\Calculator v0.1 Alpha\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.pdb
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.exe
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.deps.json
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.runtimeconfig.json
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.runtimeconfig.dev.json
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.dll
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\bin\Debug\netcoreapp3.1\(CNG)-Calculator.pdb
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.csprojAssemblyReference.cache
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.AssemblyInfoInputs.cache
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.AssemblyInfo.cs
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.dll
+C:\Users\HP250G3\Desktop\(CNG)-Calculator\(CNG)-Calculator\obj\Debug\netcoreapp3.1\(CNG)-Calculator.pdb
