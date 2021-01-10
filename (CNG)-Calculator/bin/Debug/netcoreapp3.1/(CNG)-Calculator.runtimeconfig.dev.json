@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/georgefilatov/.dotnet/store/|arch|/|tfm|",
+      "/Users/georgefilatov/.nuget/packages"
+    ]
+  }
+}
