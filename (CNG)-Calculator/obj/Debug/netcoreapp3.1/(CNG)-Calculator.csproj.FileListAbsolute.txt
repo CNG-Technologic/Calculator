@@ -9,15 +9,38 @@ C:/Users/HP250G3/Desktop/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator
 C:/Users/HP250G3/Desktop/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
 C:/Users/HP250G3/Desktop/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
 C:/Users/HP250G3/Desktop/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.deps.json
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.json
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.dev.json
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.dll
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csprojAssemblyReference.cache
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfoInputs.cache
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfo.cs
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csproj.CoreCompileInputs.cache
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
-/Users/georgefilatov/IdeaProjects/Calculator/Calculator v0.1 Alpha/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.genruntimeconfig.cache
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.exe
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.deps.json
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.json
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.dev.json
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csprojAssemblyReference.cache
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfoInputs.cache
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfo.cs
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.deps.json
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.json
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.dev.json
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csprojAssemblyReference.cache
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfoInputs.cache
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfo.cs
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csproj.CoreCompileInputs.cache
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/IdeaProjects/Calculator/(CNG)-Calculator v 0.0.2 ALPHA/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.genruntimeconfig.cache
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.deps.json
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.json
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.dev.json
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csprojAssemblyReference.cache
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfoInputs.cache
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfo.cs
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csproj.CoreCompileInputs.cache
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.genruntimeconfig.cache

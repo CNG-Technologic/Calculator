@@ -134,6 +134,12 @@ namespace _CNG__Calculator
                 Console.WriteLine("");
                 s.idd();
             }
+            else
+            {
+                Console.WriteLine("Введено некорректное значение");
+                Console.WriteLine("");
+                start.ifVstart();
+            }
         }
     }
 }

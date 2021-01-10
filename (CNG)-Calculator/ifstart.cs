@@ -18,9 +18,15 @@ namespace _CNG__Calculator
             {
                 start.startM();
             }
-            else
+            if (ifstart.Equals("2"))
             {
                 i.End();
+            }
+            else
+            {
+                    Console.WriteLine("Введено некорректное значение");
+                    Console.WriteLine("");
+                    i.ifVstart();
             }
         }
         public void End()
