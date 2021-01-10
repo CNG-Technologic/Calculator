@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{DE1396BD-E38A-4C6E-84ED-BD3719BBD7EE}|Default">
+  <MonoDevelop.Ide.ItemProperties.SPT PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SPT/Ris.cs">
+    <Files>
+      <File FileName="SPT/Program.cs" Line="1" Column="1" />
+      <File FileName="SPT/Ris.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SPT" expanded="True">
+            <Node name="SPT" expanded="True">
+              <Node name="Ris.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

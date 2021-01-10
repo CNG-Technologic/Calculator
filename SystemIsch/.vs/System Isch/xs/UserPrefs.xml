@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E027BB09-27FA-4999-ABFA-7EF01E3CA597}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="System Isch/SystemStart.cs">
+    <Files>
+      <File FileName="System Isch/Program.cs" Line="1" Column="1" />
+      <File FileName="System Isch/SystemStart.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="System Isch" expanded="True">
+            <Node name="System Isch" expanded="True">
+              <Node name="SystemStart.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.System_220Isch PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

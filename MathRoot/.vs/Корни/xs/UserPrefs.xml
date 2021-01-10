@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{016FD996-2B2C-42B9-935F-8923BDD36B45}|Default">
+  <MonoDevelop.Ide.ItemProperties.Корни PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Корни/Korni.cs">
+    <Files>
+      <File FileName="Корни/Program.cs" Line="1" Column="1" />
+      <File FileName="Корни/Korni.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Корни" expanded="True">
+            <Node name="Корни" expanded="True">
+              <Node name="Korni.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

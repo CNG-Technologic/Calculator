@@ -1,0 +1,11 @@
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\bin\Debug\netcoreapp3.1\SPT.exe
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\bin\Debug\netcoreapp3.1\SPT.deps.json
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\bin\Debug\netcoreapp3.1\SPT.runtimeconfig.json
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\bin\Debug\netcoreapp3.1\SPT.runtimeconfig.dev.json
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\bin\Debug\netcoreapp3.1\SPT.dll
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\bin\Debug\netcoreapp3.1\SPT.pdb
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\obj\Debug\netcoreapp3.1\SPT.csprojAssemblyReference.cache
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\obj\Debug\netcoreapp3.1\SPT.AssemblyInfoInputs.cache
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\obj\Debug\netcoreapp3.1\SPT.AssemblyInfo.cs
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\obj\Debug\netcoreapp3.1\SPT.dll
+C:\Users\HP250G3\Desktop\For Calculator\Теорема Пифагора\SPT\SPT\obj\Debug\netcoreapp3.1\SPT.pdb
