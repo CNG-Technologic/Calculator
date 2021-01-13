@@ -8,6 +8,7 @@ namespace _CNG__Calculator
     {
 		public void Qua()
 		{
+			Console.WriteLine("Раздел: Квадратное уравнение \n");
 			ifstart i = new ifstart();
 			double a, b, c, d, x1, x2;
 			Console.Write("Введите а (Член квадратного уравнения стоящий перед x^2): ");

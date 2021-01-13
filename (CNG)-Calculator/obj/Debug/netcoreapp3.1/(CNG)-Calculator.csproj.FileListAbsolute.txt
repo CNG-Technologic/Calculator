@@ -44,3 +44,15 @@ C:/Users/HP250G3/Desktop/(CNG)-Calculator/(CNG)-Calculator/obj/Debug/netcoreapp3
 /Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
 /Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
 /Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.genruntimeconfig.cache
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.deps.json
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.json
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.runtimeconfig.dev.json
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/bin/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csprojAssemblyReference.cache
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfoInputs.cache
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.AssemblyInfo.cs
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.csproj.CoreCompileInputs.cache
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.dll
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.pdb
+/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/Debug/netcoreapp3.1/(CNG)-Calculator.genruntimeconfig.cache

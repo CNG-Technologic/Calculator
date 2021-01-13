@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _CNG__Calculator
 {
@@ -9,26 +7,29 @@ namespace _CNG__Calculator
         public void ifVstart()
         {
             ifstart i = new ifstart();
-            Console.WriteLine("<1>- Старт " +
-                "\n<2> - Выход");
-            String ifstart = Console.ReadLine();
-            startMain start = new startMain();
+            Console.WriteLine("<1>- Старт \n<2> - Выход");
 
-            if (ifstart.Equals("1"))
+
+            string ifstart = Console.ReadLine();
+            StartMain start = new StartMain();
+
+            if (ifstart.Equals("1") || ifstart.Equals("2"))
             {
-                start.startM();
-            }
-            if (ifstart.Equals("2"))
-            {
-                i.End();
+
+                if (ifstart.Equals("1"))
+                    start.StartM();
+
+                if (ifstart.Equals("2"))
+                    i.End();
             }
             else
             {
-                    Console.WriteLine("Введено некорректное значение");
-                    Console.WriteLine("");
-                    i.ifVstart();
+                Console.WriteLine("Введено некорректное значение");
+                Console.WriteLine("");
+                i.ifVstart();
             }
         }
+
         public void End()
         {
             Console.WriteLine("-----------------------------------------------");

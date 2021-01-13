@@ -8,6 +8,7 @@ namespace _CNG__Calculator
     {
         public void Ki()
         {
+            Console.WriteLine("Раздел: Корень \n");
             ifstart i = new ifstart();
             double a;
             Console.WriteLine("Введите число:");

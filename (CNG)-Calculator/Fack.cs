@@ -8,6 +8,7 @@ namespace _CNG__Calculator
     {
         public void Fukich()
         {
+            Console.WriteLine("Раздел: Факториал \n");
             ifstart i = new ifstart();
             double a;
             double F = 1;

@@ -1,146 +1,148 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _CNG__Calculator
 {
     class startMain
     {
-        SystemStart s = new SystemStart();
-        Ris r = new Ris();
-        Ura u = new Ura();
-        Fack f = new Fack();
-        Trig t = new Trig();
-        Korni ki = new Korni();
-        Stepeni st = new Stepeni();
+        SystemStart systemStart = new SystemStart();
+        Ris ris = new Ris();
+        Ura ura = new Ura();
+        Fack fack = new Fack();
+        Trig tring = new Trig();
+        Korni korni = new Korni();
+        Stepeni stepeni = new Stepeni();
         ifstart start = new ifstart();
-        double a, b, c;
+        Help help = new Help();
         basic basic = new basic();
+
+        static double a, b, c;
+        static string starerOperator;
+
         public void startM()
         {
-            Help h = new Help();
-            Console.WriteLine("");
-            Console.WriteLine("Что ты хочешь сделать?" +
-                "\n<Help> || <?> - Увидеть возможности, " +
-                "\n<e> - выход: ");
-            string ifoper = Console.ReadLine();
+            Console.WriteLine("\n Что ты хочешь сделать? \n<Help> || <?> - Увидеть возможности, \n<e> - выход: ");
+            starerOperator = Console.ReadLine();
 
-            if (ifoper.Equals("Help") || ifoper.Equals("Помощь") | ifoper.Equals("?"))
+            if (starerOperator.Equals("+") || starerOperator.Equals("-") || starerOperator.Equals("*")
+                || starerOperator.Equals("/") || starerOperator.Equals("1") || starerOperator.Equals("2")
+                || starerOperator.Equals("3") || starerOperator.Equals("4") || starerOperator.Equals("5")
+                || starerOperator.Equals("6") || starerOperator.Equals("7") || starerOperator.Equals("8")
+                || starerOperator.Equals("9") || starerOperator.Equals("10") || starerOperator.Equals("?")
+                || starerOperator.Equals("e"))
             {
-                Console.WriteLine("Раздел: Возможности");
-                Console.WriteLine("");
-                h.Can();
-            }
-            if (ifoper.Equals("e") || ifoper.Equals("е"))
-            { //Английская и русская e
-                start.End();
-            }
 
-            if (ifoper.Equals("+") || ifoper.Equals("-") || ifoper.Equals("*") || ifoper.Equals("/"))
-            {
-                Console.WriteLine("Введи 1 число: ");
-                a = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Введи 2 число: ");
-                b = Convert.ToDouble(Console.ReadLine());
-
-                if (ifoper.Equals("+"))
+                if (starerOperator.Equals("+") || starerOperator.Equals("-") || starerOperator.Equals("*")
+                || starerOperator.Equals("/") || starerOperator.Equals("1") || starerOperator.Equals("2")
+                || starerOperator.Equals("3") || starerOperator.Equals("4") || starerOperator.Equals("5")
+                || starerOperator.Equals("6") || starerOperator.Equals("7") || starerOperator.Equals("8")
+                || starerOperator.Equals("9") || starerOperator.Equals("10"))
                 {
-                    basic.slozheniye(a, b);
-                }
 
-                if (ifoper.Equals("-"))
-                {
-                    basic.vychitaniye(a, b);
-                }
+                    Console.WriteLine("Введи 1 число: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Введи 2 число: ");
+                    b = Convert.ToDouble(Console.ReadLine());
 
-                if (ifoper.Equals("*"))
-                {
-                    basic.umnozheniye(a, b);
-                }
+                    if (starerOperator.Equals("+"))
+                        basic.slozheniye(a, b);
 
-                if (ifoper.Equals("/"))
-                {
-                    basic.deleniye(a, b);
-                }
-            }
-            if (ifoper.Equals("1") || ifoper.Equals("Step") || ifoper.Equals("step")) //Степени
-            {
-                Console.WriteLine("Раздел: Степени");
-                Console.WriteLine("");
-                st.Pow();
-            }
-            if (ifoper.Equals("2") || ifoper.Equals("Ko") || ifoper.Equals("ko")) //Корень
-            {
-                Console.WriteLine("Раздел: Корень");
-                Console.WriteLine("");
-                ki.Ki();
-            }
+                    if (starerOperator.Equals("-"))
+                        basic.vychitaniye(a, b);
 
-            if (ifoper.Equals("3")) //Синусы
-            {
-                Console.WriteLine("Раздел: Синусы");
-                Console.WriteLine("");
-                t.Sinusi();
-            }
-            if (ifoper.Equals("4")) //Косинусы
-            {
-                Console.WriteLine("Раздел: Косинусы");
-                Console.WriteLine("");
-                t.Cosinusi();
-            }
-            if (ifoper.Equals("5")) //Тангенсы
-            {
-                Console.WriteLine("Раздел: Тангенсы");
-                Console.WriteLine("");
-                t.Tangensi();
-            }
-            if (ifoper.Equals("6")) //Котангенсы
-            {
-                Console.WriteLine("Раздел: Котангенсы");
-                Console.WriteLine("");
-                t.Cotangensi();
-            }
-            if (ifoper.Equals("7")) //Факториал
-            {
-                Console.WriteLine("Раздел: Факториал");
-                Console.WriteLine("");
-                f.Fukich();
-            }
-            if (ifoper.Equals("8")) //Квадратное уравнение
-            {
-                Console.WriteLine("Раздел: Квадратное уравнение");
-                Console.WriteLine("");
-                u.Qua();
-            }
-            if (ifoper.Equals("9")) //Стороны Прям.Треугольника(Теорема Пифагора)
-            {
-                Console.WriteLine("Раздел: Нахождение сторон Прям.Треугольника(Теорема Пифагора)");
-                Console.WriteLine("");
-                Console.WriteLine("Чтобы найти гипотенузу по двум катетам введите <1>" +
+                    if (starerOperator.Equals("*"))
+                        basic.umnozheniye(a, b);
+
+                    if (starerOperator.Equals("/"))
+                        basic.deleniye(a, b);
+
+                    if (starerOperator.Equals("1"))
+                    {
+                        Console.WriteLine("Раздел: Степени \n");
+                        stepeni.Pow();
+                    }
+
+                    if (starerOperator.Equals("2"))
+                    {
+                        Console.WriteLine("Раздел: Корень \n");
+                        korni.Ki();
+                    }
+
+                    if (starerOperator.Equals("3"))
+                    {
+                        Console.WriteLine("Раздел: Синусы \n");
+                        t.Sinusi();
+                    }
+
+                    if (starerOperator.Equals("4"))
+                    {
+                        Console.WriteLine("Раздел: Косинусы \n");
+                        t.Cosinusi();
+                    }
+
+                    if (starerOperator.Equals("5"))
+                    {
+                        Console.WriteLine("Раздел: Тангенсы \n");
+                        t.Tangensi();
+                    }
+
+                    if (starerOperator.Equals("6"))
+                    {
+                        Console.WriteLine("Раздел: Котангенсы \n");
+                        t.Cotangensi();
+                    }
+
+                    if (starerOperator.Equals("7"))
+                    {
+                        Console.WriteLine("Раздел: Факториал \n");
+                        fack.Fukich();
+                    }
+
+                    if (starerOperator.Equals("8"))
+                    {
+                        Console.WriteLine("Раздел: Квадратное уравнение \n");
+                        ura.Qua();
+                    }
+
+                    if (starerOperator.Equals("9"))
+                    {
+                        Console.WriteLine("Раздел: Нахождение сторон Прям.Треугольника(Теорема Пифагора)");
+                        Console.WriteLine("Чтобы найти гипотенузу по двум катетам введите <1> " +
                             "\nЧтобы найти катет по гипотенузе и другому катету введите <2>");
-                ifoper = Console.ReadLine();
-                if (ifoper == "1")
-                {
-                    r.Gipo();
+                        starerOperator = Console.ReadLine();
+
+                        if (starerOperator == "1")
+                            ris.Gipo();
+
+                        if (starerOperator == "2")
+                            ris.Kat();
+
+                    }
+
+                    if (starerOperator.Equals("10"))
+                    {
+                        Console.WriteLine("Раздел: Переводы чисел из разных систем счисления");
+                        Console.WriteLine("");
+                        systemStart.idd();
+                    }
+
                 }
-                if (ifoper == "2")
+
+                if (starerOperator.Equals("?"))
                 {
-                    r.Kat();
+                    Console.WriteLine("Раздел: Возможности \n");
+                    help.Can();
                 }
-            }
-            if (ifoper.Equals("10")) //Системы Счисления
-            {
-                Console.WriteLine("Раздел: Переводы чисел из разных систем счисления");
-                Console.WriteLine("");
-                s.idd();
+
+                if (starerOperator.Equals("e"))
+                    start.End();
             }
             else
             {
                 Console.WriteLine("Введено некорректное значение");
-                Console.WriteLine("");
                 start.ifVstart();
             }
+
         }
+
     }
 }
-

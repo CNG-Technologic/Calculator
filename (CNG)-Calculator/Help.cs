@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _CNG__Calculator
 {
@@ -8,8 +6,9 @@ namespace _CNG__Calculator
     {
         public void Can()
         {
-            startMain start = new startMain();
-            Console.WriteLine("<+> - Сумма" +
+            StartMain start = new StartMain();
+            Console.WriteLine
+                ("<+> - Сумма" +
                 "\n<-> - Разность" +
                 "\n<*> - Умножение" +
                 "\n</> - Деление" +
@@ -22,9 +21,8 @@ namespace _CNG__Calculator
                 "\n<7> - Факториал" +
                 "\n<8> - Квадратное Уравнение" +
                 "\n<9> - Нахождение сторон Прям.Треугольника(Теорема Пифагора)" +
-                "\n<10> - Переводы чисел из разных систем счесления");
-            Console.WriteLine("");
-            start.startM();
+                "\n<10> - Переводы чисел из разных систем счесления \n");
+            start.StartM();
         }
     }
 }

@@ -8,6 +8,7 @@ namespace _CNG__Calculator
     {
         public void Pow()
         {
+			Console.WriteLine("Раздел: Степени \n");
 			ifstart i = new ifstart();
 			double a, b, c;
 			Console.Write("Какое число вы хотите возвести в степень? ");

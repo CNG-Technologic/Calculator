@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/(CNG)-Calculator.csproj": {}
+    "/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/(CNG)-Calculator.csproj": {}
   },
   "projects": {
-    "/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/(CNG)-Calculator.csproj": {
+    "/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/(CNG)-Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/(CNG)-Calculator.csproj",
+        "projectUniqueName": "/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/(CNG)-Calculator.csproj",
         "projectName": "(CNG)-Calculator",
-        "projectPath": "/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/(CNG)-Calculator.csproj",
+        "projectPath": "/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/(CNG)-Calculator.csproj",
         "packagesPath": "/Users/georgefilatov/.nuget/packages/",
-        "outputPath": "/Users/georgefilatov/Desktop/C#/Alfa v0.0.2/(CNG)-Calculator/obj/",
+        "outputPath": "/Users/georgefilatov/VisualStudioProjects/Calculator_C-Sharp/(CNG)-Calculator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/georgefilatov/.config/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
