@@ -6,4 +6,8 @@
     <RootNamespace>_CNG__Calculator</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Start\" />
+    <Folder Include="computation\" />
+  </ItemGroup>
 </Project>
