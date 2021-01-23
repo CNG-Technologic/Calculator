@@ -3,7 +3,10 @@ namespace _CNG__Calculator
 {
     public class piComputation
     {
-        double a_pi;
+        //Вспомогательный класс для действий с числом пи.  
+
+        //TODO: переименовать данный кал (a_pi)
+        double a_pi; // Нет, это не апи ;)
 
         public void Pivoid()
         {

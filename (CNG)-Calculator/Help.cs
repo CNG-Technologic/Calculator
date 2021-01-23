@@ -4,9 +4,9 @@ namespace _CNG__Calculator
 {
     class Help
     {
+        //Метод, который показывает все возможности калькулятора
         public void Can()
         {
-            Console.WriteLine("Раздел: Возможности \n");
             Console.WriteLine("'+' - сложение " +
                 "\n'-' - вычитание" +
                 "\n'*' - умножение" +

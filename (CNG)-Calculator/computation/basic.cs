@@ -1,6 +1,9 @@
 ﻿using System;
 namespace _CNG__Calculator
 {
+    /*Класс, в котором находятся все базовые операции вычисления. 
+     * (Сложение, вычитание, умножение, деление, корень числа, спень числа).
+     */
     public class basic
     {
         static MainStart str = new MainStart();

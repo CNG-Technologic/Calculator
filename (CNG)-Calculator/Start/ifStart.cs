@@ -1,10 +1,12 @@
 ﻿using System;
 namespace _CNG__Calculator
 {
+    //TODO:Переименновать данный класс 
     public class ifStart
     {
         MainStart start_1 = new MainStart();
 
+        //Базовый метод для старта калькулятора
         public void Start()
         {
             string ifstart;
@@ -18,6 +20,7 @@ namespace _CNG__Calculator
 
         }
 
+        //Метод для проверки выхода из приложения, который вызывается в случае если пользователь хочет выйти их приложения
         public void ifStartVoid()
         {
             string ifstart;

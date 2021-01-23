@@ -1,6 +1,8 @@
 ﻿using System;
 namespace _CNG__Calculator
 {
+
+    //Вспомогательный класс для действий с процентами.  
     public class Percentage
     {
         double a_pr;
@@ -9,8 +11,10 @@ namespace _CNG__Calculator
         public void Prvoid(double a)
         {
             Percentage percentage = new Percentage();
+
             Console.WriteLine("Что ты хочешь сделать: ");
-            String praf = Console.ReadLine();
+            string praf = Console.ReadLine();
+
             Console.WriteLine("Введи значение: ");
             a_pr = Convert.ToDouble(Console.ReadLine());
 
@@ -35,7 +39,7 @@ namespace _CNG__Calculator
         {
             more more = new more();
             Console.WriteLine((a / 100) + " + " + a_pr + " = " + ((a / 100) + a_pr));
-            more.prozent(a);
+            more.Prozent(a);
         }
 
         public void vicitanie(double a, double a_pr)
@@ -56,7 +60,7 @@ namespace _CNG__Calculator
             {
                 Console.WriteLine(a_pr + " - " + pr_main + " = " + (a_pr - pr_main));
             }
-            more.prozent(a);
+            more.Prozent(a);
         }
 
         public void delenie(double a, double a_pr)
@@ -77,21 +81,21 @@ namespace _CNG__Calculator
             {
                 Console.WriteLine(a_pr + " / " + pr_main + " = " + (a_pr / pr_main));
             }
-            more.prozent(a);
+            more.Prozent(a);
         }
 
         public void umnozhenie(double a, double a_pr)
         {
             more more = new more();
             Console.WriteLine((a / 100) + " * " + a_pr + " = " + ((a / 100) * a_pr));
-            more.prozent(a);
+            more.Prozent(a);
         }
 
         public void stepen(double a, double a_pr)
         {
             more more = new more();
             Console.WriteLine(a / 100 + " в степени " + a_pr + " = " + Math.Pow(a / 100, a_pr));
-            more.prozent(a);
+            more.Prozent(a);
         }
 
     }
