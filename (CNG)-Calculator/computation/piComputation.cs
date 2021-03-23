@@ -3,89 +3,73 @@ namespace _CNG__Calculator
 {
     public class piComputation
     {
-        //Вспомогательный класс для действий с числом пи.  
 
-        //TODO: переименовать данный кал (a_pi)
-        double a_pi; // Нет, это не апи ;)
-
-        public void Pivoid()
+        public void pi_void()
         {
-            piComputation startPI = new piComputation();
+
+            double a;
+            data data = new data();
+            basic basic = new basic();
+            MainStart start = new MainStart();
+
             Console.WriteLine("Что ты хочешь сделать: ");
-            String piaf = Console.ReadLine();
-            Console.WriteLine("Введи значение: ");
-            a_pi = Convert.ToDouble(Console.ReadLine());
+            string Operator = Console.ReadLine();
 
-            if (piaf.Equals("+"))
-                startPI.slozhenie(a_pi);
+            if (Operator.Equals("+") | Operator.Equals("-") | Operator.Equals("*")
+                | Operator.Equals("/") | Operator.Equals("s") | Operator.Equals("?")) {
 
-            if (piaf.Equals("-"))
-                startPI.vicitanie(a_pi);
+                if (Operator.Equals("+"))
+                {
+                    a = get_data();
+                    Console.WriteLine(Math.PI + " + " + a + " = " + basic.sum(Math.PI, a));
+                }
 
-            if (piaf.Equals("/"))
-                startPI.delenie(a_pi);
+                if (Operator.Equals("-"))
+                {
+                    a = get_data();
+                    Console.WriteLine(Math.PI + " - " + a + " = " + basic.difference(Math.PI, a));
+                }
 
-            if (piaf.Equals("*"))
-                startPI.umnozhenie(a_pi);
+                if (Operator.Equals("*"))
+                {
+                    a = get_data();
+                    Console.WriteLine(Math.PI + " * " + a + " = " + basic.multiplication_of_numbers(Math.PI, a));
+                }
 
-            if (piaf.Equals("s"))
-                startPI.stepenpi(a_pi);
+                if (Operator.Equals("/"))
+                {
+                    a = get_data();
+                    Console.WriteLine(Math.PI + " / " + a + " = " + basic.quotient(Math.PI, a));
+                }
 
-        }
+                if (Operator.Equals("s"))
+                {
+                    a = get_data();
+                    Console.WriteLine(Math.PI + "в степени " + a + basic.degree_num(Math.PI, a));
+                }
 
-        public void slozhenie(double a_pi)
-        {
-            more more = new more();
-            Console.WriteLine(Math.PI + " + " + a_pi + " = " + (Math.PI + a_pi));
-        }
+                if (Operator.Equals("?"))
+                {
+                    data.help_pi_text();
+                    pi_void();
+                }
 
-        public void umnozhenie(double a_pi)
-        {
-            more more = new more();
-            Console.WriteLine(Math.PI + " * " + a_pi + " = " + (Math.PI * a_pi));
-        }
+                start.pi_start();
 
-
-        public void vicitanie(double a_pi)
-        {
-            more more = new more();
-            Console.WriteLine("a)" + Math.PI + " - " + a_pi + "?" +
-                    "\nb)" + a_pi + " - " + Math.PI + "?");
-            String if_znach = Console.ReadLine();
-
-            if (if_znach.Equals("a"))
+            }
+            else
             {
-                Console.WriteLine(Math.PI + " - " + a_pi + " = " + (Math.PI - a_pi));
+                Console.WriteLine("Команда <" + Operator + "> для работы с числом пи не найдена");
+                pi_void();
             }
 
-            if (if_znach.Equals("b"))
-            {
-                Console.WriteLine(a_pi + " - " + Math.PI + " = " + (a_pi - Math.PI));
-            }
         }
 
-        public void delenie(double a_pi)
+        public double get_data()
         {
-            more more = new more();
-            Console.WriteLine("a)" + Math.PI + " / " + a_pi + "?" +
-                    "\nb)" + a_pi + " / " + Math.PI + "?");
-            String if_znachdel = Console.ReadLine();
-
-            if (if_znachdel.Equals("a"))
-            {
-                Console.WriteLine(Math.PI + " / " + a_pi + " = " + (Math.PI / a_pi));
-            }
-
-            if (if_znachdel.Equals("b"))
-            {
-                Console.WriteLine(a_pi + " / " + Math.PI + " = " + (a_pi / Math.PI));
-            }
-        }
-
-        public void stepenpi(double a_pi)
-        {
-            more more = new more();
-            Console.WriteLine(Math.PI + " в сепени " + a_pi + " = " + Math.Pow(Math.PI, a_pi));
+            Console.Write("Введи число: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            return a;
         }
     }
 }

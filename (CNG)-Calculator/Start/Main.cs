@@ -9,7 +9,7 @@ namespace _CNG__Calculator
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Добро Пожаловать в Калькулятор (V1.1 BETA)");
+            Console.WriteLine("Добро Пожаловать в Калькулятор (V1.2 BETA)");
             StartVoid();
         }
 

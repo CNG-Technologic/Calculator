@@ -19,7 +19,6 @@ namespace _CNG__Calculator
 
             if (ValidateOperator(StartOperator))
             {
-
                 if(StartOperator.Equals("+") | StartOperator.Equals("-") | StartOperator.Equals("*") | StartOperator.Equals("/"))
                 {
                     Console.Write("Введи 1 число: ");
@@ -75,7 +74,8 @@ namespace _CNG__Calculator
                     Console.WriteLine(more.Factorial(a));
                 }
 
-
+                if (StartOperator.Equals("pi"))
+                    pi_start();
 
                 if(StartOperator.Equals("?") | StartOperator.Equals("help"))
                     data.help_text();
@@ -88,6 +88,27 @@ namespace _CNG__Calculator
             {
                 Console.WriteLine("Комманда <" + StartOperator + "> не найдена");
                 StartMain();
+            }
+
+        }
+
+        public void pi_start()
+        {
+            piComputation pi = new piComputation();
+            Console.WriteLine("Pi = " + Math.PI);
+            Console.WriteLine("Продолжить действия с pi? (y/n) ");
+            string oper = Console.ReadLine();
+
+            if (oper.Equals("y"))
+            {
+                pi.pi_void();
+            } else if(oper.Equals("n"))
+            {
+                Console.WriteLine("Возвращаемся назад...");
+            } else
+            {
+                Console.WriteLine("команда <" + oper + "> не найдена");
+                pi_start();
             }
 
         }

@@ -2,17 +2,14 @@
   <MonoDevelop.Ide.ItemProperties._228CNG_229-Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="(CNG)-Calculator/Start/MainStart.cs">
     <Files>
-      <File FileName="(CNG)-Calculator/Start/MainStart.cs" Line="80" Column="38" />
-      <File FileName="(CNG)-Calculator/computation/more.cs" Line="31" Column="36" />
-      <File FileName="(CNG)-Calculator/Start/Main.cs" Line="42" Column="14" />
-      <File FileName="(CNG)-Calculator/common/data.cs" Line="1" Column="1" />
+      <File FileName="(CNG)-Calculator/Start/Main.cs" Line="16" Column="40" />
+      <File FileName="(CNG)-Calculator/Start/MainStart.cs" Line="78" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="(CNG)-Calculator" expanded="True">
             <Node name="(CNG)-Calculator" expanded="True">
-              <Node name="common" expanded="True" />
               <Node name="computation" expanded="True" />
               <Node name="Start" expanded="True">
                 <Node name="MainStart.cs" selected="True" />

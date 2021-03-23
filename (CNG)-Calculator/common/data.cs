@@ -22,5 +22,14 @@ namespace _CNG__Calculator
             start.StartMain();
         }
 
+        public void help_pi_text()
+        {
+            Console.WriteLine("'+' - сложение " +
+                "\n'-' - вычитание" +
+                "\n'*' - умножение" +
+                "\n'/' - деление" +
+                "\n's' - степень");
+        }
+
     }
 }
