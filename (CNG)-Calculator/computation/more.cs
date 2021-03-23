@@ -36,7 +36,7 @@ namespace _CNG__Calculator
             {
                 Console.WriteLine("Уравнение не имеет действительных корней!");
             }
-            start.startM();
+            start.StartMain();
         }
 
         public void Factorial(int num)
@@ -47,7 +47,7 @@ namespace _CNG__Calculator
                 factorial *= i;
             }
             Console.WriteLine(num + "! = " + factorial);
-            start.startM();
+            start.StartMain();
         }
 
         public void Prozent(double a)
@@ -64,7 +64,7 @@ namespace _CNG__Calculator
 
             if (ifproz.Equals("N") || ifproz.Equals("n"))
             {
-                start.startM();
+                start.StartMain();
             }
         }
 
@@ -81,7 +81,7 @@ namespace _CNG__Calculator
 
             if (ifpi.Equals("N") || ifpi.Equals("n"))
             {
-                start.startM();
+                start.StartMain();
             }
 
         }

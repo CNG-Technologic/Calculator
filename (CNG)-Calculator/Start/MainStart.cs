@@ -1,110 +1,86 @@
 ﻿using System;
 namespace _CNG__Calculator
 {
-    //TODO: переименновать данный класс
     public class MainStart
     {
-        public void startM()
+
+        public void StartMain()
         {
-            //переменные для передачи объектам данных 
             double a, b, c;
 
-            ifStart Mstart = new ifStart();
-
-            //Объекты для запуска вычислительных операций
-            Help help = new Help();
             basic basic = new basic();
-            more more = new more();
+            MainProgramm mainProgramm = new MainProgramm();
 
+            Console.WriteLine("\n(help - все функции) \nЧто ты хочешь сделать:");
+            String StartOperator = Console.ReadLine();
 
-            Console.WriteLine("Что ты хочешь сделать: ");
-            string ifoper = Console.ReadLine();
-
-            /* Если введеное знаечение от пользователя удовлетваряет это условие, запускается проверка для запуска конкреной операции, 
-             * иначе пользователь увидит ошибку о неизвестном операторе.
-             */
-            if (ifoper.Equals("+") || ifoper.Equals("-") || ifoper.Equals("*") || ifoper.Equals("/") || ifoper.Equals("k")
-                || ifoper.Equals("s") || ifoper.Equals("d") || ifoper.Equals("f") || ifoper.Equals("!") || ifoper.Equals("pi")
-                || ifoper.Equals("e") || ifoper.Equals("е") || ifoper.Equals("?") || ifoper.Equals("help"))
+            if (ValidateOperator(StartOperator))
             {
 
-                if (ifoper.Equals("e") || ifoper.Equals("е"))
-                { //Английская и русская e
-                    Console.WriteLine("Ты действительно хочешь выйти? ");
-                    Mstart.ifStartVoid();
-                }
-
-                if (ifoper.Equals("help") || ifoper.Equals("?"))
-                    help.Can();
-
-                //Это условие нужно для минимизации повтора кода. Для + - / * нужно получить на вход 2 числа
-                if (ifoper.Equals("+") || ifoper.Equals("-") || ifoper.Equals("*") || ifoper.Equals("/"))
+                if(StartOperator.Equals("+") | StartOperator.Equals("-") | StartOperator.Equals("*") | StartOperator.Equals("/"))
                 {
-                    Console.WriteLine("Введи 1 число: ");
+                    Console.Write("Введи 1 число: ");
                     a = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введи 2 число: ");
+                    Console.Write("Введи 2 число: ");
                     b = Convert.ToDouble(Console.ReadLine());
 
-                    if (ifoper.Equals("+"))
-                        basic.sloz(a, b);
+                    if (StartOperator.Equals("+"))
+                    {
+                        Console.WriteLine(basic.sum(a, b));
+                    }
 
-                    if (ifoper.Equals("-"))
-                        basic.vichitanie(a, b);
-                    
-                    if (ifoper.Equals("*"))
-                        basic.umnozhenie(a, b);
-                    
-                    if (ifoper.Equals("/"))
-                        basic.delenie(a, b);
+                    if (StartOperator.Equals("-"))
+                    {
+                        Console.WriteLine(basic.difference(a, b));
+                    }
+
+                    if (StartOperator.Equals("*"))
+                    {
+                        Console.WriteLine(basic.multiplication_of_numbers(a, b));
+                    }
+
+                    if (StartOperator.Equals("/"))
+                    {
+                        Console.WriteLine(basic.quotient(a, b));
+                    }
+
                 }
 
-                if (ifoper.Equals("k"))
+
+                if (StartOperator.Equals("k"))
                 {
-                    Console.WriteLine("Введи число: ");
+                    Console.Write("Введи число: ");
                     a = Convert.ToDouble(Console.ReadLine());
-                    basic.koren(a);
+                    Console.WriteLine(basic.root_of_number(a));
                 }
 
-                //В этом условие на вход получаются 2 числа, но сообщение для пользователя отличается (Введи степень, а не Введи 2 число)
-                if (ifoper.Equals("s"))
+                if(StartOperator.Equals("s"))
                 {
-                    Console.WriteLine("Введи число: ");
+                    Console.Write("Введи число: ");
                     a = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введи степень: ");
+                    Console.Write("Введи степень: ");
                     b = Convert.ToDouble(Console.ReadLine());
-                    basic.stepen(a, b);
+                    Console.WriteLine(basic.degree_num(a, b));
                 }
 
-                if (ifoper.Equals("d"))
-                {
-                    Console.WriteLine("Введи a: ");
-                    a = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введи b: ");
-                    b = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("Введи c: ");
-                    c = Convert.ToDouble(Console.ReadLine());
-                    more.Descriminant(a, b, c);
-                }
+                StartMain();
 
-                if (ifoper.Equals("f") || ifoper.Equals("!"))
-                {
-                    Console.WriteLine("Введи число: ");
-                    int num = Convert.ToInt32(Console.ReadLine());
-                    more.Factorial(num);
-                }
-
-
-                if (ifoper.Equals("pi"))
-                    more.pio();
-                
-
-            }
+            } else if(StartOperator.Equals("e") | StartOperator.Equals("е"))
+                mainProgramm.FullExit();
             else
             {
-                Console.WriteLine("Команда <" + ifoper + "> не найдена.");
-                startM();
+                Console.WriteLine("Комманда <" + StartOperator + "> не найдена");
+                StartMain();
             }
 
         }
+
+        public bool ValidateOperator(String Operator)
+        {
+            return Operator.Equals("+") | Operator.Equals("-") | Operator.Equals("*") | Operator.Equals("/") | Operator.Equals("k")
+                | Operator.Equals("s") | Operator.Equals("d") | Operator.Equals("f") | Operator.Equals("!") | Operator.Equals("pi")
+                | Operator.Equals("?") | Operator.Equals("help");
+        }
+
     }
 }

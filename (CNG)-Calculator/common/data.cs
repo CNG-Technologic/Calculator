@@ -2,10 +2,10 @@
 
 namespace _CNG__Calculator
 {
-    class Help
+    class data
     {
         //Метод, который показывает все возможности калькулятора
-        public void Can()
+        public void help_text()
         {
             Console.WriteLine("'+' - сложение " +
                 "\n'-' - вычитание" +
@@ -19,8 +19,8 @@ namespace _CNG__Calculator
                 "\n'e' - выход");
 
             MainStart start = new MainStart();
-            start.startM();
-
+            start.StartMain();
         }
+
     }
 }

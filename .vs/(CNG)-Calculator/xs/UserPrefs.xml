@@ -2,21 +2,17 @@
   <MonoDevelop.Ide.ItemProperties._228CNG_229-Calculator PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="(CNG)-Calculator/Start/Main.cs">
     <Files>
-      <File FileName="(CNG)-Calculator/Start/MainStart.cs" Line="4" Column="40" />
-      <File FileName="(CNG)-Calculator/computation/more.cs" Line="76" Column="1" />
-      <File FileName="(CNG)-Calculator/computation/basic.cs" Line="4" Column="13" />
-      <File FileName="(CNG)-Calculator/Start/ifStart.cs" Line="4" Column="39" />
-      <File FileName="(CNG)-Calculator/Help.cs" Line="7" Column="65" />
-      <File FileName="(CNG)-Calculator/computation/Percentage.cs" Line="6" Column="1" />
-      <File FileName="(CNG)-Calculator/computation/piComputation.cs" Line="8" Column="16" />
-      <File FileName="(CNG)-Calculator/Start/Main.cs" Line="9" Column="69" />
+      <File FileName="(CNG)-Calculator/Start/Main.cs" Line="12" Column="68" />
+      <File FileName="(CNG)-Calculator/Start/MainStart.cs" Line="87" Column="2" />
+      <File FileName="(CNG)-Calculator/computation/basic.cs" Line="1" Column="1" />
+      <File FileName="(CNG)-Calculator/computation/more.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="(CNG)-Calculator" expanded="True">
             <Node name="(CNG)-Calculator" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="common" expanded="True" />
               <Node name="computation" expanded="True" />
               <Node name="Start" expanded="True">
                 <Node name="Main.cs" selected="True" />

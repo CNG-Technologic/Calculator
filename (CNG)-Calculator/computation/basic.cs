@@ -1,47 +1,39 @@
 ﻿using System;
 namespace _CNG__Calculator
 {
-    /*Класс, в котором находятся все базовые операции вычисления. 
-     * (Сложение, вычитание, умножение, деление, корень числа, спень числа).
-     */
+
     public class basic
     {
-        static MainStart str = new MainStart();
 
-        public void sloz(double a, double b)
+        public double sum(double a, double b)
         {
-            Console.WriteLine(a + " + " + b + " = " + (a + b));
-            str.startM();
+            return a + b;
         }
 
-        public void vichitanie(double a, double b)
+        public double difference(double a, double b)
         {
-            Console.WriteLine(a + " - " + b + " = " + (a - b));
-            str.startM();
+            return a - b;
         }
 
-        public void umnozhenie(double a, double b)
+        public double multiplication_of_numbers(double a, double b)
         {
-            Console.WriteLine(a + " * " + b + " = " + (a * b));
-            str.startM();
+            return a * b;
         }
 
-        public void delenie(double a, double b)
+        public double quotient(double a, double b)
         {
-            Console.WriteLine(a + " / " + b + " = " + (a / b));
-            str.startM();
+            return a / b;
         }
 
-        public void koren(double a)
+        public double root_of_number(double a)
         {
-            Console.WriteLine("Корень из " + a + " = " + Math.Sqrt(a));
-            str.startM();
+            return Math.Sqrt(a);
         }
 
-        public void stepen(double a, double b)
+        public double degree_num(double a, double b)
         {
-            Console.WriteLine(a + " в степени " + b + " = " + Math.Pow(a, b));
-            str.startM();
+            return Math.Pow(a, b);
         }
+
     }
 }
