@@ -9,22 +9,19 @@ namespace _CNG__Calculator
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Добро Пожаловать в Калькулятор (V1.2 BETA)");
+            Console.WriteLine("Добро Пожаловать в Калькулятор (V1.1 BETA)");
             StartVoid();
         }
-
 
         public static void StartVoid() {
             Console.WriteLine("\n1 - старт \n2 - выход");
 
-            String start_operator = Console.ReadLine();
+            string start_operator = Console.ReadLine();
 
-            if (start_operator.Equals("1")) {
+            if (start_operator.Equals("1"))
                 Start.StartMain();
-            }
-            else if (start_operator.Equals("2")) {
+            else if (start_operator.Equals("2"))
                 Console.WriteLine("Завершение работы...");
-            }
             else
             {
                 Console.WriteLine("Команда <" + start_operator + "> не найдена");

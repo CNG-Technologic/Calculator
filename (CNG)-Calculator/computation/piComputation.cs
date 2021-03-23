@@ -37,14 +37,12 @@ namespace _CNG__Calculator
         {
             more more = new more();
             Console.WriteLine(Math.PI + " + " + a_pi + " = " + (Math.PI + a_pi));
-            more.pio();
         }
 
         public void umnozhenie(double a_pi)
         {
             more more = new more();
             Console.WriteLine(Math.PI + " * " + a_pi + " = " + (Math.PI * a_pi));
-            more.pio();
         }
 
 
@@ -64,7 +62,6 @@ namespace _CNG__Calculator
             {
                 Console.WriteLine(a_pi + " - " + Math.PI + " = " + (a_pi - Math.PI));
             }
-            more.pio();
         }
 
         public void delenie(double a_pi)
@@ -83,14 +80,12 @@ namespace _CNG__Calculator
             {
                 Console.WriteLine(a_pi + " / " + Math.PI + " = " + (a_pi / Math.PI));
             }
-            more.pio();
         }
 
         public void stepenpi(double a_pi)
         {
             more more = new more();
             Console.WriteLine(Math.PI + " в сепени " + a_pi + " = " + Math.Pow(Math.PI, a_pi));
-            more.pio();
         }
     }
 }

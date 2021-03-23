@@ -9,10 +9,13 @@ namespace _CNG__Calculator
             double a, b, c;
 
             basic basic = new basic();
+            more more = new more();
+            data data = new data();
+
             MainProgramm mainProgramm = new MainProgramm();
 
             Console.WriteLine("\n(help - все функции) \nЧто ты хочешь сделать:");
-            String StartOperator = Console.ReadLine();
+            string StartOperator = Console.ReadLine();
 
             if (ValidateOperator(StartOperator))
             {
@@ -25,29 +28,20 @@ namespace _CNG__Calculator
                     b = Convert.ToDouble(Console.ReadLine());
 
                     if (StartOperator.Equals("+"))
-                    {
-                        Console.WriteLine(basic.sum(a, b));
-                    }
+                        Console.WriteLine(a + " + " + b + " = " + basic.sum(a, b));
 
                     if (StartOperator.Equals("-"))
-                    {
-                        Console.WriteLine(basic.difference(a, b));
-                    }
+                        Console.WriteLine(a + " - " + b + " = " + basic.difference(a, b));
 
                     if (StartOperator.Equals("*"))
-                    {
-                        Console.WriteLine(basic.multiplication_of_numbers(a, b));
-                    }
+                        Console.WriteLine(a + " * " + b + " = " + basic.multiplication_of_numbers(a, b));
 
                     if (StartOperator.Equals("/"))
-                    {
-                        Console.WriteLine(basic.quotient(a, b));
-                    }
+                        Console.WriteLine(a + " / " + b + " = " + basic.quotient(a, b));
 
                 }
 
-
-                if (StartOperator.Equals("k"))
+                if(StartOperator.Equals("k"))
                 {
                     Console.Write("Введи число: ");
                     a = Convert.ToDouble(Console.ReadLine());
@@ -63,9 +57,32 @@ namespace _CNG__Calculator
                     Console.WriteLine(basic.degree_num(a, b));
                 }
 
+                if(StartOperator.Equals("d"))
+                {
+                    Console.Write("Введи a: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Введи b: ");
+                    b = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Введи c: ");
+                    c = Convert.ToDouble(Console.ReadLine());
+                    more.full_quadratic_equation(a, b, c);
+                }
+
+                if(StartOperator.Equals("f") | StartOperator.Equals("!"))
+                {
+                    Console.Write("Введи число: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine(more.Factorial(a));
+                }
+
+
+
+                if(StartOperator.Equals("?") | StartOperator.Equals("help"))
+                    data.help_text();
+           
                 StartMain();
 
-            } else if(StartOperator.Equals("e") | StartOperator.Equals("е"))
+            } else if (StartOperator.Equals("e") | StartOperator.Equals("е"))
                 mainProgramm.FullExit();
             else
             {
